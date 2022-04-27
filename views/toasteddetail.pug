@@ -1,0 +1,27 @@
+extends layout
+
+block content
+  h1(id="titlestyle")= title
+
+  if (toShow == null)
+    h2 No instance to delete
+  else
+    - let toastedid = toShow._id
+    - let toastedItemname = toShow.Itemname
+    - let toastedQuantity = toShow.Quantity
+    - let toastedprice = toShow.price
+
+    div
+      div.row
+        div(class='toastedAttr mr-3') toasted ID is:
+        div(class='variety stylesheetnew') #{toastedid}
+      div.row
+        div(class='toastedAttr mr-3') toasted Itemname is:
+        div(class="variety") #{toastedItemname}
+      div.row
+        div(class='toastedAttr mr-3') toasted Quantity is:
+        div(class="variety") #{toastedQuantity}
+      div.row
+        div(class='toastedAttr mr-3') toasted price is:
+        div(class="variety") #{toastedprice}
+    
