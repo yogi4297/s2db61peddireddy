@@ -1,5 +1,5 @@
 {
-  "name": "s2wb53dharamkarramesh",
+  "name": "s2db61peddireddy",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -20,7 +20,7 @@
     "pug": "^3.0.2"
   },
   "main": "app.js",
-  "author": "Abhishek Dharamkar Ramesh",
+  "author": "YogaNarasimhaReddy Peddireddy",
   "license": "ISC",
   "description": ""
 }
