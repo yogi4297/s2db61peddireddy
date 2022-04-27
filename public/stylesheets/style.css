@@ -1,13 +1,13 @@
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 8x "Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #07051b;
 }
 
 .roastedAttr {
-  background-color: aquamarine;
-  width: 120px;
+  background-color: rgb(138, 255, 127);
+  width: 200px;
  }

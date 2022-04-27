@@ -61,22 +61,22 @@ async function recreateDB(){
  
   await toasted.deleteMany();
   
-  let instance1 = new toasted({Itemname:"juice strawberry", Quantity:40,
- price:"TEN USD"});
+  let instance1 = new toasted({Itemname:"Garlic Bread", Quantity:20,
+ price:"Eight USD"});
   instance1.save( function(err,doc) {
   if(err) return console.error(err);
   console.log("First object saved")
   });
 
-  let instance2 = new toasted({Itemname:"juice sapota", Quantity:11,
-  price:"SIX USD"});
+  let instance2 = new toasted({Itemname:" Grilled Cheese Sandwich", Quantity:1,
+  price:"Ten USD"});
    instance2.save( function(err,doc) {
    if(err) return console.error(err);
    console.log("second object saved")
    });
 
-   let instance3 = new toasted({Itemname:"juice Banana", Quantity:20,
-   price:"EIGHT  USD"});
+   let instance3 = new toasted({Itemname:"Bread", Quantity:40,
+   price:"Ten USD"});
    instance3.save( function(err,doc) {
    if(err) return console.error(err);
    console.log("third object saved")
